@@ -1,12 +1,80 @@
-# React + Vite
+# 🌐 MetaNexus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MetaNexus is a modern, fully responsive website built with **React**, **Vite**, and **Tailwind CSS**. It features a sleek UI suitable for SaaS, startups, or tech landing pages, including a responsive navbar, gradient hero section, video showcase, feature highlights, pricing plans, testimonials, and a footer. Enhanced with **Lucide** icons and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://meta-nexus.vercel.app](https://meta-nexus.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Fast build setup with **Vite**
+- 📱 **Responsive navbar** with mobile drawer
+- 🌈 Gradient-styled **hero section**
+- 🎥 Video embedding with autoplay & loop
+- 💡 Product **feature highlights**
+- 💳 **Pricing plans** with clean layout
+- 💬 **Testimonial** section
+- 🦶 **Footer** with links
+- 🎨 Styled entirely with **Tailwind CSS**
+- 🧩 Icon support via **Lucide**
+
+---
+
+## 📁 Folder Structure
+
+```
+MetaNexus/
+├── public/
+│   └── assets/
+│       ├── hero.mp4
+│       ├── feature-video.mp4
+│       └── images/
+│           ├── hero.jpg
+│           ├── feature1.png
+│           └── testimonial1.jpg
+├── src/
+│   ├── assets/              # Static files: images, videos
+│   ├── components/          # Reusable UI components
+│   ├── pages/               # Page-level components (e.g., Home)
+│   ├── App.jsx              # Root component
+│   ├── main.jsx             # Vite entry point
+│   └── index.css            # Tailwind base styles
+├── tailwind.config.js       # Tailwind config
+├── vite.config.js           # Vite config
+├── package.json             # Project dependencies
+└── README.md                # Project documentation
+```
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/metanexus.git
+cd metanexus
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧰 Tech Stack
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **Lucide Icons**
+- **Vercel (Deployment)**
